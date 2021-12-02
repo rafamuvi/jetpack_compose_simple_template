@@ -12,5 +12,6 @@
 - Created `.github/workflows/build.yml` with the following steps:
     - Checkout;
     - Setup Java JDK with `java-version: 1.8`;
+    - Give permission to Gradle;
     - Build with Gradle;
     - and Upload APK (The uploaded APK will be in main Actions Tab);
